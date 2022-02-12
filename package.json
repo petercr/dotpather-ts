@@ -4,6 +4,7 @@
   "description": "dotpath lookup module",
   "main": "index.js",
   "scripts": {
+    "typecheck": "tsc",
     "lint": "standard index.js test/index.js",
     "test": "node test/index.js && npm run lint"
   },
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "standard": "^5.4.1",
-    "tape": "^4.4.0"
+    "tape": "^4.4.0",
+    "typescript": "^4.5.5"
   }
 }
